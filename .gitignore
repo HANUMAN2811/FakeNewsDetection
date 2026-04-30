@@ -1,0 +1,51 @@
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual Environments ──────────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+
+# ── Environment Variables ─────────────────────────────────────
+.env
+!.env.example
+
+# ── Dataset (too large for Git) ───────────────────────────────
+data/raw/Fake.csv
+data/raw/True.csv
+data/processed/news_dataset.csv
+
+# ── Trained Models (regenerate with train_model.py) ──────────
+models/*.pkl
+
+# ── Jupyter Checkpoints ───────────────────────────────────────
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# ── Test / Coverage Output ────────────────────────────────────
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# ── macOS ─────────────────────────────────────────────────────
+.DS_Store
+
+# ── Windows ───────────────────────────────────────────────────
+Thumbs.db
+desktop.ini
+
+# ── IDEs ──────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
